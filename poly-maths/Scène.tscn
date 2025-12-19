@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://bth7fvv4at8x0"]
+
+[ext_resource type="Script" uid="uid://dekphcusf1t7c" path="res://Main.cs" id="1_apscn"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Canva" type="Node2D" parent="."]
+script = ExtResource("1_apscn")
+radius = 10
+polygonColor = Color(0.49803922, 0.03137255, 0.1882353, 1)
+windowColor = Color(0.17120683, 0.29768586, 0.11932816, 1)
+resultColor = Color(0.701575, 1.1936426e-05, 0.48443472, 1)

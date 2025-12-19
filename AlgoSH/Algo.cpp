@@ -7,7 +7,7 @@ Algo::Algo(vector<Point> PL, vector<Point> PW)
     F = PW;
     Point S, f, I;
 
-    for (int i = 0; i < f.size() - 1; i++) {
+    for (int i = 0; i < F.size() - 1; i++) {
         vector<Point> PS;
         for (int j = 0; j < P.size(); j++) {
             if (j == 1) {
